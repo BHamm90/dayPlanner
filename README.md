@@ -1,105 +1,60 @@
-# 05 Third-Party APIs: Work Day Scheduler
+<header>
+    <h1>Day Planner</h1>
+</header>
 
-## Your Task
+<body>
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+<h2>Purpose:</h2>
+    
+<p> The purpose of this activity was to build an fully functional day planner. The planner had to allow the time and date to your local computer. Doing so allowed the planner to judge whether the event was past, present, or furture also providing color for visual aid. Finally the user had to be able to add events to the day planner and save them using local storage so when the page was refreshed they would still exist on their computer. </p>
 
-You'll need to use a library like [Moment.js](https://momentjs.com/) to work with dates and times. `Moment.js` has historically been the most popular date/time library but is no longer supported by its developers. However, you can still use it for this project, or you can look into one of the following alternatives:
+<h2>Task List:</h2>
 
-  * [Luxon](https://moment.github.io/luxon/)
+<ol>
+    <li> Deploy a Functional Webpage </li>
+    <li> Provide the user with the ability to add events to the planner </li>
+    <li> On the back end provide current date/time sync from local computer to the webpage</li>
+    <li> Provide the user the ability to save the events to the planner (local storage)</li>
+    <li> Provide colored rows to visually aid in events that have occured and are to come</li>
+    <li> Provide clean and fuctional code using jQuery</li>
+</ol>
 
-  * [Day.js](https://day.js.org/)
+<h2>Website Deployment</h2>
 
-  * [date-fns](https://date-fns.org/)
+<p> The current version of this website can be found here. <a href="https://bhamm90.github.io/dayPlanner/">(Day Planner)</a>
 
-  * [js-Joda](https://js-joda.github.io/js-joda/)
+<h2>Feedback</h2>
 
-Whichever library you choose, be sure to read the documentation carefully!
+<p> Please get ahold of me with any suggestions for features/items you believe should be added. Also feel free to let me know of any issues you may come across while using the page. You can reach me on <a href="https://stackoverflow.com/users/14324130/bhamm90">Stack Overflow</a> with any comments and concerns. For any issues and fixes you can file an issue at the <a href="https://github.com/BHamm90/codeQuiz/issues">Code Quiz link </a> <-- so I can fix them as soon as possible. </p>
 
+<h3>Website Preview:</h3>
 
-## User Story
+<img src="Assets/images/webpage.png">
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+<h3>Preview of the HTML: <h3>
 
+<img src="Assets/images/index.png">
 
-## Acceptance Criteria
+<br>
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+<img src="Assets/images/scoreboard.png">
 
+<h3>Preview of the Javascript</h3>
 
-## Mock-Up
+<img src="Assets/images/testJava.png">
 
-The following animation demonstrates the application functionality:
+<br>
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+<img src="Assets/images/scorejava.png">
 
+<h3>Preview of the CSS</h3>
 
-## Grading Requirements
+<img src="Assets/images/css.png">
 
-This homework is graded based on the following criteria: 
+<h4>Looking Forward: </h4>
 
-### Technical Acceptance Criteria: 40%
+<p> Looking forward I would like to continue updating this code quiz wih more question from the criteria we learn in the future. Also I would like to create multiple test that can be assessed from one page depending on what you would like to study or were you are at in the class. Finally I would love to hear other idea from the users on what they would like to see added.
 
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses the Moment.js library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+<Footer>
+ <p> © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. </p>
+</Footer>

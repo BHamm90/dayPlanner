@@ -20,6 +20,12 @@ var eventTime = [
     {time: "5 PM", event: ""},
 ];
 
+/* Check if there is info in local storage */
+var dayEvents = JSON.parse(localStorage.getItem("dayEvents"));
+if (dayEvents) {
+    eventTime = dayEvents;
+}
+
 /* Create Rows for each time block */
 eventTime.forEach(function(timeBlock, index){
     var schedTime = timeBlock.time;
@@ -46,17 +52,15 @@ function colorRow(time) {
     
     if (schedCurrent.isBefore(schedTime) === true) {
         return "future";
-    } else if (schedCurrent.isAfter(schedTime) === true){
+    } else if (schedCurrent.isAfter(schedTime) === true) {
         return "past";
     } else {
-        return "present"
+        return "present";
     }
 }
 
-/* Local Storage and Save Button Section */
-
 /* Create save button and set to local storage */
-$(".saveBtn").on("click", function () {
+$(".saveBtn").on("click", function() {
     var timeId = parseInt(
         $(this)
             
@@ -75,9 +79,3 @@ $(".saveBtn").on("click", function () {
 
     localStorage.setItem("dayEvents", JSON.stringify(eventTime));
 });
-
-/* Check if there is info in local storage */
-var dayEvents = JSON.parse(localStorage.getItem("dayEvents"));
-if (dayEvents) {
-    eventTime = dayEvents;
-}
