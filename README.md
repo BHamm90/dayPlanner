@@ -25,35 +25,27 @@
 
 <h2>Feedback</h2>
 
-<p> Please get ahold of me with any suggestions for features/items you believe should be added. Also feel free to let me know of any issues you may come across while using the page. You can reach me on <a href="https://stackoverflow.com/users/14324130/bhamm90">Stack Overflow</a> with any comments and concerns. For any issues and fixes you can file an issue at the <a href="https://github.com/BHamm90/codeQuiz/issues">Code Quiz link </a> <-- so I can fix them as soon as possible. </p>
+<p> Please get ahold of me with any suggestions for features/items you believe should be added. Also feel free to let me know of any issues you may come across while using the page. You can reach me on <a href="https://stackoverflow.com/users/14324130/bhamm90">Stack Overflow</a> with any comments and concerns. For any issues and fixes you can file an issue at the <a href="https://github.com/BHamm90/dayPlanner/issues">Day Planner link </a> <-- so I can fix them as soon as possible. </p>
 
 <h3>Website Preview:</h3>
 
-<img src="Assets/images/webpage.png">
+<img src="Assets/Images/webpage.png">
 
 <h3>Preview of the HTML: <h3>
 
-<img src="Assets/images/index.png">
-
-<br>
-
-<img src="Assets/images/scoreboard.png">
+<img src="Assets/Images/index.png">
 
 <h3>Preview of the Javascript</h3>
 
-<img src="Assets/images/testJava.png">
-
-<br>
-
-<img src="Assets/images/scorejava.png">
+<img src="Assets/Images/java.png">
 
 <h3>Preview of the CSS</h3>
 
-<img src="Assets/images/css.png">
+<img src="Assets/Images/css.png">
 
 <h4>Looking Forward: </h4>
 
-<p> Looking forward I would like to continue updating this code quiz wih more question from the criteria we learn in the future. Also I would like to create multiple test that can be assessed from one page depending on what you would like to study or were you are at in the class. Finally I would love to hear other idea from the users on what they would like to see added.
+<p> Looking forward I would like to continue updating this day planner. I would like to see about the possiblity of extending it out into a monthly planner. Also I would like to find a way for the events to auto save as the user is typing them in so you dont have to remember to click the save button. Lastly as always any suggestions to make your user experience better are always welcome so please feel free to let me know.
 
 <Footer>
  <p> © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. </p>
